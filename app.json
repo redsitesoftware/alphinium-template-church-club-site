@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "GraceConnect",
+    "slug": "church-club-site",
+    "version": "1.0.0",
+    "backgroundColor": "#F8F5FF",
+    "primaryColor": "#7C3AED",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "GraceConnect",
+      "description": "Church and club community hub",
+      "themeColor": "#7C3AED",
+      "lang": "en"
+    },
+    "android": {
+      "package": "com.redsitesoftware.churchClubSite"
+    },
+    "ios": {
+      "bundleIdentifier": "com.redsitesoftware.churchClubSite"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c00c39d0-8f5b-4d7f-aeb8-2840e1c3ef99"
+      }
+    },
+    "owner": "zx10r06",
+    "description": "Church and club community hub"
+  }
+}

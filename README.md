@@ -23,3 +23,10 @@ CI=1 npx expo start --web --port 8102 --clear
 ```
 
 See `GOING_LIVE.md` for suggested production integrations.
+
+## Configuration
+
+| Variable | Description | Default | Notes |
+|---|---|---|---|
+| `EXPO_PUBLIC_GA_ID` | GA4 Measurement ID | `G-X09N3J8X17` | Override with your own GA property when going live |
+
